@@ -1,0 +1,33 @@
+#Css Underline effect
+
+nav ul li a {
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    transition: width 0.3s;
+}
+
+nav ul li a:hover::after {
+    width: 80%;
+}
+
+#css back effect (box)
+
+main box
+transition: transform 0.3s ease;
+
+.container .color:active {
+    transform: scale(0.95);
+
+
+
+

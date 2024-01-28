@@ -1,0 +1,137 @@
+	Command Promt 
+
+command/? - know command work
+dir - directory
+cls - clear
+cd filename - change directory
+cd .. - previous directory
+mkdir filename - make directory for creating file
+rmdir filename - remove directory
+rmdir /s filename - remove file
+echo > filename - create file
+del filename - delete file
+start code filename - open with visual studio code
+type filename - read file 
+echo anything >> filename - push content to file
+
+
+pwd - present working directory
+ls - list file
+ls -a - see file with hidden directory
+rm - remove any file
+touch - create file with extention
+
+:wq
+
+git config --global user.name "Rayyanfahim" - git config && overwrite 
+
+git config --global user.email "rayyanfahim1@gmail.com"
+
+git config user.name "fahim" -- single file
+
+git config --list - check config file
+
+	Staging
+
+git status - check status
+
+git add --filename--
+
+git add -A - Move all file to staging with directory & subdirectory both
+
+git add . - move all file to staging without subdirectory
+
+git add *.js - (js is extension) move all extension file
+
+git diff - check the difference
+
+git restore - restore previous change
+
+git rm --cached --filename-- to unstage
+
+	Local Repo
+
+git commit -m "any msg" - for tranfer file stage to local Repo
+
+git commit -am "any msg" - staging & commiting directly
+
+git add . && git commit -m "any msg" - staging & commiting directly
+
+git log - to see the commit history
+
+	Uncommit
+
+git reset --soft HEAD^ - local repo to staging
+
+git reset HEAD^ - local repo && remove from staging area
+
+git reset --hard HEAD^
+
+	HEAD & Commit
+
+git log -- oneline show commit
+
+git show commit _id / git show / git show HEAD - show commit info 
+
+git checkout commitID / HEAD Number - like reset 
+
+	Git Ignore
+
+touch .gitignore - for  creating git ignore file
+
+put file with extension name for ignore those files
+
+*.txt - extention for all ingore
+!story - for don't ignore file
+
+node_modules/ - ignore subdirectory with directory
+
+	connect local repo to remote repo
+
+git remote - check if connected or not
+git remote -v - details
+
+git remote add origin(check any name) url - connect to remote repo
+
+	git push & push
+
+git clone url - pull file from remote
+
+git push
+git push -u origin filename - push to remote
+git pull - pull file
+
+	git branch & merge
+
+git branch - check git brance
+git branch branchname - create branch name
+git checkout branchname - move to another branch
+git branch -d branchname - delete branch 
+git checkout -b "filename"- create & move to that branch
+git push -u origin(check filename) filename - push to that branch or active branch
+git merge main-branchname
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

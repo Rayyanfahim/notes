@@ -1,0 +1,43 @@
+				METHOD 1 (Using Vite)
+npm init -y (For package.json)
+npm install -D tailwindcss postcss autoprefixer vite
+
+npx tailwindcss init -p
+
+#package.json (start=vite)
+
+tailwind.config.js contant (*)
+
+npm run build
+
+LINK CSS FILE
+
+npm run start
+
+				METHOD 2 (CLI)
+
+npm init -y (For package.json)
+
+npm i -D tailwindcss (For Node Modules)
+
+npx tailwindcss init (For tailwind.config.js) then add tailwind.config.js file to this (content: ["./src/**/*.{html,js}"],)
+
+create 2 folder (src, output)
+
+in src add 2 folder index.html and input .css
+
+in input.css add these file(@tailwind base; @tailwind components; @tailwind utilities;)
+
+create .vscode folder and create file settings.json and type this [{
+    "css.validate": false,
+    "tailwindCSS.emmetCompletions": true
+}]
+
+go package.json and write ("build": "tailwindcss -i ./src/input.css -o ./output/output.css --watch")
+
+npm run build
+
+link the output css file
+
+
+
