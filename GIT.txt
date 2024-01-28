@@ -91,14 +91,14 @@ node_modules/ - ignore subdirectory with directory
 git remote - check if connected or not
 git remote -v - details
 
-git remote add origin(check any name) url - connect to remote repo
+git remote add name url - connect to remote repo
 
 	git push & push
 
 git clone url - pull file from remote
 
 git push
-git push -u origin filename - push to remote
+git push -u name - push to remote
 git pull - pull file
 
 	git branch & merge
@@ -110,28 +110,3 @@ git branch -d branchname - delete branch
 git checkout -b "filename"- create & move to that branch
 git push -u origin(check filename) filename - push to that branch or active branch
 git merge main-branchname
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
